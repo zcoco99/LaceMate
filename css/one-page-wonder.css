@@ -15,7 +15,8 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-weight: 400 !important;
+  vertical-align: text-bottom;
 }
 
 .btn-xl {
@@ -55,17 +56,23 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-.background-img{
+.coverbg-img{
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url('../img/kid_lacing.jpg');
+  background-image: url('../img/shoes-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:top center;
   background-attachment: scroll;
 }
+
+.icon-size{
+  width:20%
+}
+
+
 
 header.masthead {
   position: relative;
