@@ -19,6 +19,13 @@ h6 {
   vertical-align: text-bottom;
 }
 
+.highlight{
+    background: #B5BAFF;
+    display: inline-block;
+    padding: 0 2px;
+}
+
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -61,11 +68,23 @@ h6 {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url('../img/shoes-background.jpg');
+  background-image: url('../img/walking.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:top center;
+  background-position: top;
+}
+
+.conecpt-bgimg{
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('../img/ShoePouch_Side.jpg');
   background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .icon-size{
@@ -117,17 +136,17 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #4751D2 !important;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #4751D2;
+  border-color: #4751D2;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #5C66F6 !important;
+  border-color: #5C66F6 !important;
 }
 
 .btn-primary:focus {
