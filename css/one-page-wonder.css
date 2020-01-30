@@ -75,23 +75,40 @@ h6 {
   background-position: top;
 }
 
-.conecpt-bgimg{
+.concept-bgimg{
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url('../img/ShoePouch_Side.jpg');
-  background-attachment: scroll;
+  background-image: url('../img/render/ShoePouch_Side.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 
+.sketch-img{
+  padding: 1rem;
+  height:560px;
+  width:700px;
+}
+
+.render-img{
+  padding: 1rem;
+  height:350px;
+  width:700px;
+}
+
+div.transparent-txtbox{
+  background: transparent;
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  opacity:0.7;
+}
+
 .icon-size{
   width:20%
 }
-
-
 
 header.masthead {
   position: relative;
