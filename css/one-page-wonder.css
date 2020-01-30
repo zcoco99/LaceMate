@@ -25,6 +25,20 @@ h6 {
     padding: 0 2px;
 }
 
+.trainer-item {
+    text-align: center;
+    padding: 0 5px;
+    margin-bottom: 30px;
+}
+
+.trainer-item .trainer-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    align-items: center;
+    overflow: hidden;
+}
 
 .btn-xl {
   text-transform: uppercase;
@@ -81,6 +95,18 @@ h6 {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background-image: url('../img/render/ShoePouch_Side.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.about-bgimg{
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-image: url('../img/kid_lacing.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
